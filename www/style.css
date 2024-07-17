@@ -1,12 +1,3 @@
-
-/* 
-	STYLE.CSS:
-	One stylesheet to rule them all.
-	
-	selector { property:value }
-	
-*/
-
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
 
 body {
@@ -47,14 +38,6 @@ p, li {
   font-size: 22px;
   color: #51473b;
 }
-
-
-
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
 
 .pageContainer:after { 
   content: " ";
